@@ -35,6 +35,6 @@
 		"vite": "7.0.6"
 	},
 	"dependencies": {
-		"posthog-js": "1.258.2"
+		"posthog-js": "1.258.6"
 	}
 }
