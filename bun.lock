@@ -4,7 +4,7 @@
     "": {
       "name": "website",
       "dependencies": {
-        "posthog-js": "1.268.1",
+        "posthog-js": "1.268.4",
       },
       "devDependencies": {
         "@eslint/compat": "1.4.0",
@@ -130,7 +130,7 @@
 
     "@polka/url": ["@polka/url@1.0.0-next.29", "", {}, "sha512-wwQAWhWSuHaag8c4q/KN/vCoeOJYshAIvMQwD4GpSb3OiZklFfvAgmj0VCBBImRpuF/aFgIRzllXlVX93Jevww=="],
 
-    "@posthog/core": ["@posthog/core@1.1.0", "", {}, "sha512-igElrcnRPJh2nWYACschjH4OwGwzSa6xVFzRDVzpnjirUivdJ8nv4hE+H31nvwE56MFhvvglfHuotnWLMcRW7w=="],
+    "@posthog/core": ["@posthog/core@1.2.1", "", {}, "sha512-zNw96BipqM5/Tf161Q8/K5zpwGY3ezfb2wz+Yc3fIT5OQHW8eEzkQldPgtFKMUkqImc73ukEa2IdUpS6vEGH7w=="],
 
     "@rollup/rollup-android-arm-eabi": ["@rollup/rollup-android-arm-eabi@4.43.0", "", { "os": "android", "cpu": "arm" }, "sha512-Krjy9awJl6rKbruhQDgivNbD1WuLb8xAclM4IR4cN5pHGAs2oIMMQJEiC3IC/9TZJ+QZkmZhlMO/6MBGxPidpw=="],
 
@@ -474,7 +474,7 @@
 
     "postcss-selector-parser": ["postcss-selector-parser@7.1.0", "", { "dependencies": { "cssesc": "^3.0.0", "util-deprecate": "^1.0.2" } }, "sha512-8sLjZwK0R+JlxlYcTuVnyT2v+htpdrjDOKuMcOVdYjt52Lh8hWRYpxBPoKx/Zg+bcjc3wx6fmQevMmUztS/ccA=="],
 
-    "posthog-js": ["posthog-js@1.268.1", "", { "dependencies": { "@posthog/core": "1.1.0", "core-js": "^3.38.1", "fflate": "^0.4.8", "preact": "^10.19.3", "web-vitals": "^4.2.4" }, "peerDependencies": { "@rrweb/types": "2.0.0-alpha.17", "rrweb-snapshot": "2.0.0-alpha.17" }, "optionalPeers": ["@rrweb/types", "rrweb-snapshot"] }, "sha512-vkV8vFHUWtPsFeHZCCszGdnLxKJn93UVw7a7SZGTJyyQ3JBC1Sydy4DvolnDt2IhqIUZCs9ljwqaUXcITqLoEg=="],
+    "posthog-js": ["posthog-js@1.268.4", "", { "dependencies": { "@posthog/core": "1.2.1", "core-js": "^3.38.1", "fflate": "^0.4.8", "preact": "^10.19.3", "web-vitals": "^4.2.4" }, "peerDependencies": { "@rrweb/types": "2.0.0-alpha.17", "rrweb-snapshot": "2.0.0-alpha.17" }, "optionalPeers": ["@rrweb/types", "rrweb-snapshot"] }, "sha512-kbE8SeH4Hi6uETEzO4EVANULz1ncw+PXC/SMfDdByf4Qt0a/AKoxjlGCZwHuZuflQmBfTwwQcjHeQxnmIxti1A=="],
 
     "preact": ["preact@10.26.9", "", {}, "sha512-SSjF9vcnF27mJK1XyFMNJzFd5u3pQiATFqoaDy03XuN00u4ziveVVEGt5RKJrDR8MHE/wJo9Nnad56RLzS2RMA=="],
 
