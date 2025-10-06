@@ -4,7 +4,7 @@
     "": {
       "name": "website",
       "dependencies": {
-        "posthog-js": "1.270.1",
+        "posthog-js": "1.271.0",
       },
       "devDependencies": {
         "@eslint/compat": "1.4.0",
@@ -472,7 +472,7 @@
 
     "postcss-selector-parser": ["postcss-selector-parser@7.1.0", "", { "dependencies": { "cssesc": "^3.0.0", "util-deprecate": "^1.0.2" } }, "sha512-8sLjZwK0R+JlxlYcTuVnyT2v+htpdrjDOKuMcOVdYjt52Lh8hWRYpxBPoKx/Zg+bcjc3wx6fmQevMmUztS/ccA=="],
 
-    "posthog-js": ["posthog-js@1.270.1", "", { "dependencies": { "@posthog/core": "1.2.2", "core-js": "^3.38.1", "fflate": "^0.4.8", "preact": "^10.19.3", "web-vitals": "^4.2.4" }, "peerDependencies": { "@rrweb/types": "2.0.0-alpha.17", "rrweb-snapshot": "2.0.0-alpha.17" }, "optionalPeers": ["@rrweb/types", "rrweb-snapshot"] }, "sha512-HP7+vr19gE8Qx7n88ElJxkI/BwL8S5lH8D1OKp91YnAlcJuc0Vze0M9TMmFAgC2oUVGrvSgH5++sNg8qGlm9tg=="],
+    "posthog-js": ["posthog-js@1.271.0", "", { "dependencies": { "@posthog/core": "1.2.2", "core-js": "^3.38.1", "fflate": "^0.4.8", "preact": "^10.19.3", "web-vitals": "^4.2.4" }, "peerDependencies": { "@rrweb/types": "2.0.0-alpha.17", "rrweb-snapshot": "2.0.0-alpha.17" }, "optionalPeers": ["@rrweb/types", "rrweb-snapshot"] }, "sha512-jYsWrxO+xRkSm7Sigy6SAsnd688VPG0twL3nkonbjVEy+cB80967bhA2mgu2CDTvQ14sLgYfue8ukbSR0Rtvlw=="],
 
     "preact": ["preact@10.26.9", "", {}, "sha512-SSjF9vcnF27mJK1XyFMNJzFd5u3pQiATFqoaDy03XuN00u4ziveVVEGt5RKJrDR8MHE/wJo9Nnad56RLzS2RMA=="],
 
