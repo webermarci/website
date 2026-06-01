@@ -24,12 +24,12 @@
 	stroke-linejoin="round"
 	stroke-width="16"
 	fill="none"
-	class="w-24"
+	class="logo-animation w-24"
 	aria-hidden="true"
 >
 	{#if showM}
 		<path
-			class="text-slate-400 will-change-transform"
+			class="will-change-transform"
 			in:draw={{ duration: 1500, easing: sineInOut }}
 			d="M5 135 L35 70 L55 105 L75 70 L105 135"
 		/>
@@ -37,9 +37,24 @@
 
 	{#if showW}
 		<path
-			class="text-slate-400 will-change-transform"
+			class="will-change-transform"
 			in:draw={{ duration: 1500, easing: sineInOut }}
 			d="M5 5 L35 70 L55 35 L75 70 L105 5"
 		/>
 	{/if}
 </svg>
+
+<style>
+	.logo-animation {
+		animation: color-animation 30s ease-in-out infinite alternate;
+	}
+
+	@keyframes color-animation {
+		0% {
+			color: var(--color-emerald-500);
+		}
+		100% {
+			color: var(--color-indigo-400);
+		}
+	}
+</style>

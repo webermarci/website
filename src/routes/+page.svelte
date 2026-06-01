@@ -27,7 +27,7 @@
 			>.
 		</p>
 
-		<p class="aleo mb-4 flex items-center gap-1 text-center text-lg tracking-wide text-slate-500">
+		<p class="aleo mb-4 flex items-center gap-1 text-center text-lg tracking-wide text-zinc-500">
 			<svg
 				xmlns="http://www.w3.org/2000/svg"
 				width="24"
@@ -38,7 +38,7 @@
 				stroke-width="2"
 				stroke-linecap="round"
 				stroke-linejoin="round"
-				class="mb-0.5 h-5 w-5 text-slate-400"
+				class="mb-0.5 h-5 w-5 text-zinc-400"
 				aria-hidden="true"
 			>
 				<path
@@ -69,13 +69,13 @@
 			>.
 		</p>
 
-		<div class="mb-12 flex flex-wrap justify-center gap-3 text-slate-400">
+		<div class="mb-12 flex flex-wrap justify-center gap-3 text-zinc-400">
 			<svg
 				role="img"
 				viewBox="0 0 24 24"
 				xmlns="http://www.w3.org/2000/svg"
 				fill="currentColor"
-				class="w-7 text-[#00ADD8]"
+				class="w-8 text-[#00ADD8]"
 			>
 				<title>Go</title>
 				<path
@@ -88,7 +88,7 @@
 				viewBox="0 0 24 24"
 				xmlns="http://www.w3.org/2000/svg"
 				fill="currentColor"
-				class="w-7 text-[#3178C6]"
+				class="w-8 text-[#3178C6]"
 			>
 				<title>TypeScript</title>
 				<path
@@ -101,7 +101,7 @@
 				viewBox="0 0 24 24"
 				xmlns="http://www.w3.org/2000/svg"
 				fill="currentColor"
-				class="w-7 text-[#4B275F]"
+				class="w-8 text-[#4B275F]"
 			>
 				<title>Elixir</title>
 				<path
@@ -114,7 +114,7 @@
 				fill="none"
 				viewBox="0 0 32 32"
 				xmlns="http://www.w3.org/2000/svg"
-				class="w-7"
+				class="w-8"
 			>
 				<title>Python</title>
 				<path
@@ -135,7 +135,7 @@
 				role="img"
 				viewBox="0 0 24 24"
 				xmlns="http://www.w3.org/2000/svg"
-				class="w-7 text-[#000000]"
+				class="w-8 text-[#000000]"
 			>
 				<title>Rust</title>
 				<path
@@ -148,7 +148,7 @@
 				viewBox="0 0 24 24"
 				xmlns="http://www.w3.org/2000/svg"
 				fill="currentColor"
-				class="w-7 text-[#F46800]"
+				class="w-8 text-[#F46800]"
 			>
 				<title>Grafana</title>
 				<path
@@ -162,11 +162,11 @@
 		<div class="mb-4 flex w-full flex-col justify-center gap-6">
 			<div class="flex w-full flex-col items-center rounded">
 				<div
-					class="flex w-full items-center justify-between gap-2 rounded-lg border border-slate-300 bg-slate-50 px-4 py-2"
+					class="flex w-full items-center justify-between gap-2 rounded-lg border border-zinc-300 bg-zinc-50 px-4 py-2"
 				>
 					<div class="flex items-center gap-1">
-						<p class="manrope font-extrabold tracking-wide text-slate-600">Rise Engine</p>
-						<p class="manrope font-medium text-slate-400">(2024 - )</p>
+						<p class="manrope font-extrabold tracking-wide text-zinc-600">Rise Engine</p>
+						<p class="manrope font-medium tracking-wide text-zinc-400">(2024 - )</p>
 					</div>
 					<div class="flex items-center gap-1 md:gap-2">
 						<svg
@@ -174,7 +174,7 @@
 							viewBox="0 0 24 24"
 							xmlns="http://www.w3.org/2000/svg"
 							fill="currentColor"
-							class="w-4 text-slate-400 md:w-5"
+							class="w-4 text-zinc-500 md:w-5"
 						>
 							<title>Go</title>
 							<path
@@ -187,7 +187,7 @@
 							viewBox="0 0 24 24"
 							xmlns="http://www.w3.org/2000/svg"
 							fill="currentColor"
-							class="w-4 text-slate-400 md:w-5"
+							class="w-4 text-zinc-500 md:w-5"
 						>
 							<title>Elixir</title>
 							<path
@@ -200,7 +200,7 @@
 							viewBox="0 0 24 24"
 							xmlns="http://www.w3.org/2000/svg"
 							fill="currentColor"
-							class="w-4 text-slate-400 md:w-5"
+							class="w-4 text-zinc-500 md:w-5"
 						>
 							<title>Svelte</title>
 							<path
@@ -210,32 +210,10 @@
 
 						<svg
 							role="img"
-							fill="none"
-							viewBox="0 0 32 32"
-							xmlns="http://www.w3.org/2000/svg"
-							class="w-4 md:w-5"
-						>
-							<title>Python</title>
-							<path
-								d="m13.016 2c-2.1971 0-3.9782 1.7245-3.9782 3.8518v2.6667h6.8852v0.74074h-9.9454c-2.1971 0-3.9781 1.7245-3.9781 3.8518v5.7778c0 2.1273 1.7811 3.8518 3.9781 3.8518h2.2951v-3.2592c0-2.1273 1.7811-3.8519 3.9782-3.8519h7.3442c1.8591 0 3.3661-1.4592 3.3661-3.2592v-6.5186c0-2.1273-1.781-3.8518-3.9781-3.8518h-5.9672zm-0.918 4.7407c0.7605 0 1.377-0.59696 1.377-1.3333 0-0.73638-0.6165-1.3333-1.377-1.3333-0.7606 0-1.3771 0.59696-1.3771 1.3333 0 0.73637 0.6165 1.3333 1.3771 1.3333z"
-								clip-rule="evenodd"
-								fill="#90a1b9"
-								fill-rule="evenodd"
-							/>
-							<path
-								d="m18.983 30c2.1971 0 3.9782-1.7245 3.9782-3.8518v-2.6667h-6.8853v-0.7407h9.9454c2.1971 0 3.9781-1.7246 3.9781-3.8519v-5.7778c0-2.1273-1.781-3.8518-3.9781-3.8518h-2.2951v3.2592c0 2.1274-1.7811 3.8519-3.9781 3.8519h-7.3443c-1.8591 0-3.3661 1.4592-3.3661 3.2592v6.5186c0 2.1273 1.7811 3.8518 3.9781 3.8518h5.9672zm0.9181-4.7407c-0.7606 0-1.3771 0.5969-1.3771 1.3333s0.6165 1.3333 1.3771 1.3333c0.7605 0 1.377-0.5969 1.377-1.3333s-0.6165-1.3333-1.377-1.3333z"
-								clip-rule="evenodd"
-								fill="#90a1b9"
-								fill-rule="evenodd"
-							/>
-						</svg>
-
-						<svg
-							role="img"
 							viewBox="0 0 24 24"
 							xmlns="http://www.w3.org/2000/svg"
 							fill="currentColor"
-							class="w-4 text-slate-400 md:w-5"
+							class="w-4 text-zinc-500 md:w-5"
 						>
 							<title>Grafana</title>
 							<path
@@ -244,7 +222,7 @@
 						</svg>
 					</div>
 				</div>
-				<p class="aleo mt-2 ml-2 w-full border-l-2 border-slate-300 pl-3 text-lg tracking-wide">
+				<p class="aleo mt-2 ml-2 w-full border-l-2 border-zinc-300 pl-3 text-lg tracking-wide">
 					Early-stage startup aiming to revolutionize industrial control and automation by
 					leveraging industrial computers instead of traditional PLCs. I lead the development of
 					most of the software systems.
@@ -253,11 +231,11 @@
 
 			<div class="flex w-full flex-col items-center rounded">
 				<div
-					class="flex w-full items-center justify-between gap-2 rounded-lg border border-slate-300 bg-slate-50 px-4 py-2"
+					class="flex w-full items-center justify-between gap-2 rounded-lg border border-zinc-300 bg-zinc-50 px-4 py-2"
 				>
 					<div class="flex items-center gap-1">
-						<p class="manrope font-extrabold tracking-wide text-slate-600">Parkl</p>
-						<p class="manrope font-medium text-slate-400">(2024)</p>
+						<p class="manrope font-extrabold tracking-wide text-zinc-600">Parkl</p>
+						<p class="manrope font-medium tracking-wide text-zinc-400">(2024)</p>
 					</div>
 					<div class="flex items-center gap-1 md:gap-2">
 						<svg
@@ -265,7 +243,7 @@
 							viewBox="0 0 24 24"
 							xmlns="http://www.w3.org/2000/svg"
 							fill="currentColor"
-							class="w-4 text-slate-400 md:w-5"
+							class="w-4 text-zinc-500 md:w-5"
 						>
 							<title>Go</title>
 							<path
@@ -278,7 +256,7 @@
 							viewBox="0 0 24 24"
 							xmlns="http://www.w3.org/2000/svg"
 							fill="currentColor"
-							class="w-4 text-slate-400 md:w-5"
+							class="w-4 text-zinc-500 md:w-5"
 						>
 							<title>Svelte</title>
 							<path
@@ -291,7 +269,7 @@
 							viewBox="0 0 24 24"
 							xmlns="http://www.w3.org/2000/svg"
 							fill="currentColor"
-							class="w-4 text-slate-400 md:w-5"
+							class="w-4 text-zinc-500 md:w-5"
 						>
 							<title>Grafana</title>
 							<path
@@ -300,7 +278,7 @@
 						</svg>
 					</div>
 				</div>
-				<p class="aleo mt-2 ml-2 w-full border-l-2 border-slate-300 pl-3 text-lg tracking-wide">
+				<p class="aleo mt-2 ml-2 w-full border-l-2 border-zinc-300 pl-3 text-lg tracking-wide">
 					I served as a consultant, guiding the complete redesign of their parking and electric
 					vehicle charging IoT systems — from the hardware level to system monitoring and
 					management.
@@ -309,11 +287,11 @@
 
 			<div class="flex w-full flex-col items-center rounded">
 				<div
-					class="flex w-full items-center justify-between gap-2 rounded-lg border border-slate-300 bg-slate-50 px-3 py-2"
+					class="flex w-full items-center justify-between gap-2 rounded-lg border border-zinc-300 bg-zinc-50 px-3 py-2"
 				>
 					<div class="flex items-center gap-1">
-						<p class="manrope font-extrabold tracking-wide text-slate-600">Katt</p>
-						<p class="manrope font-medium text-slate-400">(2023 - )</p>
+						<p class="manrope font-extrabold tracking-wide text-zinc-600">Katt</p>
+						<p class="manrope font-medium tracking-wide text-zinc-400">(2023 - )</p>
 					</div>
 					<div class="flex items-center gap-1 md:gap-2">
 						<svg
@@ -321,7 +299,7 @@
 							viewBox="0 0 24 24"
 							xmlns="http://www.w3.org/2000/svg"
 							fill="currentColor"
-							class="w-4 text-slate-400 md:w-5"
+							class="w-4 text-zinc-500 md:w-5"
 						>
 							<title>Go</title>
 							<path
@@ -334,7 +312,7 @@
 							viewBox="0 0 24 24"
 							xmlns="http://www.w3.org/2000/svg"
 							fill="currentColor"
-							class="w-4 text-slate-400 md:w-5"
+							class="w-4 text-zinc-500 md:w-5"
 						>
 							<title>Svelte</title>
 							<path
@@ -347,7 +325,7 @@
 							viewBox="0 0 24 24"
 							xmlns="http://www.w3.org/2000/svg"
 							fill="currentColor"
-							class="w-4 text-slate-400 md:w-5"
+							class="w-4 text-zinc-500 md:w-5"
 						>
 							<title>PlatformIO</title>
 							<path
@@ -360,7 +338,7 @@
 							viewBox="0 0 24 24"
 							xmlns="http://www.w3.org/2000/svg"
 							fill="currentColor"
-							class="w-4 text-slate-400 md:w-5"
+							class="w-4 text-zinc-500 md:w-5"
 						>
 							<title>Grafana</title>
 							<path
@@ -369,7 +347,7 @@
 						</svg>
 					</div>
 				</div>
-				<p class="aleo mt-2 ml-2 w-full border-l-2 border-slate-300 pl-3 text-lg tracking-wide">
+				<p class="aleo mt-2 ml-2 w-full border-l-2 border-zinc-300 pl-3 text-lg tracking-wide">
 					This is a passion project currently in its early stages, built on the foundation of
 					expertise I've gained over years of experience in the parking industry.
 				</p>
@@ -377,11 +355,11 @@
 
 			<div class="flex w-full flex-col items-center rounded">
 				<div
-					class="flex w-full items-center justify-between gap-2 rounded-lg border border-slate-300 bg-slate-50 px-4 py-2"
+					class="flex w-full items-center justify-between gap-2 rounded-lg border border-zinc-300 bg-zinc-50 px-4 py-2"
 				>
 					<div class="flex items-center gap-1">
-						<p class="manrope font-extrabold tracking-wide text-slate-600">NISZ</p>
-						<p class="manrope font-medium text-slate-400">(2021 - 2022)</p>
+						<p class="manrope font-extrabold tracking-wide text-zinc-600">NISZ</p>
+						<p class="manrope font-medium tracking-wide text-zinc-400">(2021 - 2022)</p>
 					</div>
 					<div class="flex items-center gap-1 md:gap-2">
 						<svg
@@ -389,7 +367,7 @@
 							viewBox="0 0 24 24"
 							xmlns="http://www.w3.org/2000/svg"
 							fill="currentColor"
-							class="w-4 text-slate-400 md:w-5"
+							class="w-4 text-zinc-500 md:w-5"
 						>
 							<title>Go</title>
 							<path
@@ -402,7 +380,7 @@
 							viewBox="0 0 24 24"
 							xmlns="http://www.w3.org/2000/svg"
 							fill="currentColor"
-							class="w-4 text-slate-400 md:w-5"
+							class="w-4 text-zinc-500 md:w-5"
 						>
 							<title>Rust</title>
 							<path
@@ -415,7 +393,7 @@
 							viewBox="0 0 24 24"
 							xmlns="http://www.w3.org/2000/svg"
 							fill="currentColor"
-							class="w-4 text-slate-400 md:w-5"
+							class="w-4 text-zinc-500 md:w-5"
 						>
 							<title>Grafana</title>
 							<path
@@ -424,7 +402,7 @@
 						</svg>
 					</div>
 				</div>
-				<p class="aleo mt-2 ml-2 w-full border-l-2 border-slate-300 pl-3 text-lg tracking-wide">
+				<p class="aleo mt-2 ml-2 w-full border-l-2 border-zinc-300 pl-3 text-lg tracking-wide">
 					A simple visualization project became a breakthrough in file analysis, reducing the count
 					and sum of a thousand terabytes of small files from 2 days to 4 hours.
 				</p>
@@ -432,11 +410,11 @@
 
 			<div class="flex w-full flex-col items-center rounded">
 				<div
-					class="flex w-full items-center justify-between gap-2 rounded-lg border border-slate-300 bg-slate-50 px-4 py-2"
+					class="flex w-full items-center justify-between gap-2 rounded-lg border border-zinc-300 bg-zinc-50 px-4 py-2"
 				>
 					<div class="flex items-center gap-1">
-						<p class="manrope font-extrabold tracking-wide text-slate-600">Monizor</p>
-						<p class="manrope font-medium text-slate-400">(2020 - 2021)</p>
+						<p class="manrope font-extrabold tracking-wide text-zinc-600">Monizor</p>
+						<p class="manrope font-medium tracking-wide text-zinc-400">(2020 - 2021)</p>
 					</div>
 					<div class="flex items-center gap-1 md:gap-2">
 						<svg
@@ -444,7 +422,7 @@
 							viewBox="0 0 24 24"
 							xmlns="http://www.w3.org/2000/svg"
 							fill="currentColor"
-							class="w-4 text-slate-400 md:w-5"
+							class="w-4 text-zinc-500 md:w-5"
 						>
 							<title>Go</title>
 							<path
@@ -457,7 +435,7 @@
 							viewBox="0 0 24 24"
 							xmlns="http://www.w3.org/2000/svg"
 							fill="currentColor"
-							class="w-4 text-slate-400 md:w-5"
+							class="w-4 text-zinc-500 md:w-5"
 						>
 							<title>Svelte</title>
 							<path
@@ -470,7 +448,7 @@
 							viewBox="0 0 24 24"
 							xmlns="http://www.w3.org/2000/svg"
 							fill="currentColor"
-							class="w-4 text-slate-400 md:w-5"
+							class="w-4 text-zinc-500 md:w-5"
 						>
 							<title>Arduino</title>
 							<path
@@ -483,7 +461,7 @@
 							viewBox="0 0 24 24"
 							xmlns="http://www.w3.org/2000/svg"
 							fill="currentColor"
-							class="w-4 text-slate-400 md:w-5"
+							class="w-4 text-zinc-500 md:w-5"
 						>
 							<title>Grafana</title>
 							<path
@@ -492,7 +470,7 @@
 						</svg>
 					</div>
 				</div>
-				<p class="aleo mt-2 ml-2 w-full border-l-2 border-slate-300 pl-3 text-lg tracking-wide">
+				<p class="aleo mt-2 ml-2 w-full border-l-2 border-zinc-300 pl-3 text-lg tracking-wide">
 					A colleague from Rollet and I built a solar-powered sensor for agriculture, using LoRa and
 					sleep cycles for efficient long-range data transmission.
 				</p>
@@ -500,11 +478,11 @@
 
 			<div class="flex w-full flex-col items-center rounded">
 				<div
-					class="flex w-full items-center justify-between gap-2 rounded-lg border border-slate-300 bg-slate-50 px-4 py-2"
+					class="flex w-full items-center justify-between gap-2 rounded-lg border border-zinc-300 bg-zinc-50 px-4 py-2"
 				>
 					<div class="flex items-center gap-1">
-						<p class="manrope font-extrabold tracking-wide text-slate-600">Rollet</p>
-						<p class="manrope font-medium text-slate-400">(2018 - 2024)</p>
+						<p class="manrope font-extrabold tracking-wide text-zinc-600">Rollet</p>
+						<p class="manrope font-medium tracking-wide text-zinc-400">(2018 - 2024)</p>
 					</div>
 					<div class="flex items-center gap-1 md:gap-2">
 						<svg
@@ -512,7 +490,7 @@
 							viewBox="0 0 24 24"
 							xmlns="http://www.w3.org/2000/svg"
 							fill="currentColor"
-							class="w-4 text-slate-400 md:w-5"
+							class="w-4 text-zinc-500 md:w-5"
 						>
 							<title>Go</title>
 							<path
@@ -525,7 +503,7 @@
 							viewBox="0 0 24 24"
 							xmlns="http://www.w3.org/2000/svg"
 							fill="currentColor"
-							class="w-4 text-slate-400 md:w-5"
+							class="w-4 text-zinc-500 md:w-5"
 						>
 							<title>Svelte</title>
 							<path
@@ -544,13 +522,13 @@
 							<path
 								d="m13.016 2c-2.1971 0-3.9782 1.7245-3.9782 3.8518v2.6667h6.8852v0.74074h-9.9454c-2.1971 0-3.9781 1.7245-3.9781 3.8518v5.7778c0 2.1273 1.7811 3.8518 3.9781 3.8518h2.2951v-3.2592c0-2.1273 1.7811-3.8519 3.9782-3.8519h7.3442c1.8591 0 3.3661-1.4592 3.3661-3.2592v-6.5186c0-2.1273-1.781-3.8518-3.9781-3.8518h-5.9672zm-0.918 4.7407c0.7605 0 1.377-0.59696 1.377-1.3333 0-0.73638-0.6165-1.3333-1.377-1.3333-0.7606 0-1.3771 0.59696-1.3771 1.3333 0 0.73637 0.6165 1.3333 1.3771 1.3333z"
 								clip-rule="evenodd"
-								fill="#90a1b9"
+								fill="#71717b"
 								fill-rule="evenodd"
 							/>
 							<path
 								d="m18.983 30c2.1971 0 3.9782-1.7245 3.9782-3.8518v-2.6667h-6.8853v-0.7407h9.9454c2.1971 0 3.9781-1.7246 3.9781-3.8519v-5.7778c0-2.1273-1.781-3.8518-3.9781-3.8518h-2.2951v3.2592c0 2.1274-1.7811 3.8519-3.9781 3.8519h-7.3443c-1.8591 0-3.3661 1.4592-3.3661 3.2592v6.5186c0 2.1273 1.7811 3.8518 3.9781 3.8518h5.9672zm0.9181-4.7407c-0.7606 0-1.3771 0.5969-1.3771 1.3333s0.6165 1.3333 1.3771 1.3333c0.7605 0 1.377-0.5969 1.377-1.3333s-0.6165-1.3333-1.377-1.3333z"
 								clip-rule="evenodd"
-								fill="#90a1b9"
+								fill="#71717b"
 								fill-rule="evenodd"
 							/>
 						</svg>
@@ -560,7 +538,7 @@
 							viewBox="0 0 24 24"
 							xmlns="http://www.w3.org/2000/svg"
 							fill="currentColor"
-							class="w-4 text-slate-400 md:w-5"
+							class="w-4 text-zinc-500 md:w-5"
 						>
 							<title>React</title>
 							<path
@@ -573,7 +551,7 @@
 							viewBox="0 0 24 24"
 							xmlns="http://www.w3.org/2000/svg"
 							fill="currentColor"
-							class="w-4 text-slate-400 md:w-5"
+							class="w-4 text-zinc-500 md:w-5"
 						>
 							<title>Arduino</title>
 							<path
@@ -586,7 +564,7 @@
 							viewBox="0 0 24 24"
 							xmlns="http://www.w3.org/2000/svg"
 							fill="currentColor"
-							class="w-4 text-slate-400 md:w-5"
+							class="w-4 text-zinc-500 md:w-5"
 						>
 							<title>Grafana</title>
 							<path
@@ -595,7 +573,7 @@
 						</svg>
 					</div>
 				</div>
-				<p class="aleo mt-2 ml-2 w-full border-l-2 border-slate-300 pl-3 text-lg tracking-wide">
+				<p class="aleo mt-2 ml-2 w-full border-l-2 border-zinc-300 pl-3 text-lg tracking-wide">
 					I joined Rollet as a full-stack developer during its early startup phase. Over time, I
 					focused more on IoT and monitoring. Later, I returned as a contractor, working exclusively
 					on IoT and embedded systems, including a ticket kiosk system.
@@ -604,47 +582,47 @@
 
 			<div class="flex w-full flex-col items-center rounded">
 				<div
-					class="flex w-full items-center justify-between gap-2 rounded-lg border border-slate-300 bg-slate-50 px-4 py-2"
+					class="flex w-full items-center justify-between gap-2 rounded-lg border border-zinc-300 bg-zinc-50 px-4 py-2"
 				>
 					<div class="flex items-center gap-1">
-						<p class="manrope font-extrabold tracking-wide text-slate-600">Ulyssys</p>
-						<p class="manrope font-medium text-slate-400">(2015 - 2017)</p>
+						<p class="manrope font-extrabold tracking-wide text-zinc-600">Ulyssys</p>
+						<p class="manrope font-medium tracking-wide text-zinc-400">(2015 - 2017)</p>
 					</div>
 					<div class="flex items-center gap-1 md:gap-2">
 						<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" class="w-4 md:w-5">
 							<path
-								fill="#90a1b9"
+								fill="#71717b"
 								d="M23.65,24.898c-0.998-1.609-1.722-2.943-2.725-5.455C19.229,15.2,31.24,11.366,26.37,3.999c2.111,5.089-7.577,8.235-8.477,12.473C17.07,20.37,23.645,24.898,23.65,24.898z"
 							>
 							</path>
 							<path
-								fill="#90a1b9"
+								fill="#71717b"
 								d="M23.878,17.27c-0.192,2.516,2.229,3.857,2.299,5.695c0.056,1.496-1.447,2.743-1.447,2.743s2.728-0.536,3.579-2.818c0.945-2.534-1.834-4.269-1.548-6.298c0.267-1.938,6.031-5.543,6.031-5.543S24.311,11.611,23.878,17.27z"
 							>
 							</path>
 							<g
 								><path
-									fill="#90a1b9"
+									fill="#71717b"
 									d="M32.084 25.055c1.754-.394 3.233.723 3.233 2.01 0 2.901-4.021 5.643-4.021 5.643s6.225-.742 6.225-5.505C37.521 24.053 34.464 23.266 32.084 25.055zM29.129 27.395c0 0 1.941-1.383 2.458-1.902-4.763 1.011-15.638 1.147-15.638.269 0-.809 3.507-1.638 3.507-1.638s-7.773-.112-7.773 2.181C11.683 28.695 21.858 28.866 29.129 27.395z"
 								>
 								</path>
 								<path
-									fill="#90a1b9"
+									fill="#71717b"
 									d="M27.935,29.571c-4.509,1.499-12.814,1.02-10.354-0.993c-1.198,0-2.974,0.963-2.974,1.889c0,1.857,8.982,3.291,15.63,0.572L27.935,29.571z"
 								>
 								</path>
 								<path
-									fill="#90a1b9"
+									fill="#71717b"
 									d="M18.686,32.739c-1.636,0-2.695,1.054-2.695,1.822c0,2.391,9.76,2.632,13.627,0.205l-2.458-1.632C24.271,34.404,17.014,34.579,18.686,32.739z"
 								>
 								</path>
 								<path
-									fill="#90a1b9"
+									fill="#71717b"
 									d="M36.281,36.632c0-0.936-1.055-1.377-1.433-1.588c2.228,5.373-22.317,4.956-22.317,1.784c0-0.721,1.807-1.427,3.477-1.093l-1.42-0.839C11.26,34.374,9,35.837,9,37.017C9,42.52,36.281,42.255,36.281,36.632z"
 								>
 								</path>
 								<path
-									fill="#90a1b9"
+									fill="#71717b"
 									d="M39,38.604c-4.146,4.095-14.659,5.587-25.231,3.057C24.341,46.164,38.95,43.628,39,38.604z"
 								>
 								</path>
@@ -656,7 +634,7 @@
 							viewBox="0 0 24 24"
 							xmlns="http://www.w3.org/2000/svg"
 							fill="currentColor"
-							class="w-4 text-slate-400 md:w-5"
+							class="w-4 text-zinc-500 md:w-5"
 						>
 							<title>PHP</title>
 							<path
@@ -669,7 +647,7 @@
 							viewBox="0 0 24 24"
 							xmlns="http://www.w3.org/2000/svg"
 							fill="currentColor"
-							class="w-4 text-slate-400 md:w-5"
+							class="w-4 text-zinc-500 md:w-5"
 						>
 							<title>jQuery</title>
 							<path
@@ -678,7 +656,7 @@
 						</svg>
 					</div>
 				</div>
-				<p class="aleo mt-2 ml-2 w-full border-l-2 border-slate-300 pl-3 text-lg tracking-wide">
+				<p class="aleo mt-2 ml-2 w-full border-l-2 border-zinc-300 pl-3 text-lg tracking-wide">
 					I developed the company's internal HR system, working largely independently on the
 					technical side while also contributing to product development.
 				</p>
