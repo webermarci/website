@@ -10,7 +10,7 @@
 	/>
 </svelte:head>
 
-<main class="w-full px-2 py-4 md:px-4 lg:py-12 xl:py-24 2xl:py-32">
+<main class="w-full px-3 py-4 md:px-4 lg:py-12 xl:py-24 2xl:py-32">
 	<div class="m-auto flex max-w-xl flex-col items-center">
 		<Logo />
 
@@ -52,19 +52,19 @@
 		<p class="aleo mb-8 text-center text-xl tracking-wide">
 			You can find me on
 			<a
-				class="font-medium text-blue-600 decoration-wavy underline-offset-2 hover:underline"
+				class="font-medium text-blue-500 decoration-wavy underline-offset-2 hover:underline"
 				target="_blank"
 				rel="noopener noreferrer"
 				href="https://www.linkedin.com/in/webermarton/">LinkedIn</a
 			>,
 			<a
-				class="font-medium text-blue-600 decoration-wavy underline-offset-2 hover:underline"
+				class="font-medium text-blue-500 decoration-wavy underline-offset-2 hover:underline"
 				target="_blank"
 				rel="noopener noreferrer"
 				href="https://github.com/webermarci">GitHub</a
 			>, or get in touch via
 			<a
-				class="font-medium text-blue-600 decoration-wavy underline-offset-2 hover:underline"
+				class="font-medium text-blue-500 decoration-wavy underline-offset-2 hover:underline"
 				href="mailto:webermarton@gmail.com">email</a
 			>.
 		</p>
@@ -165,10 +165,10 @@
 					class="flex w-full items-center justify-between gap-2 rounded-lg border border-zinc-300 bg-zinc-50 px-4 py-2"
 				>
 					<div class="flex items-center gap-1">
-						<p class="manrope font-extrabold tracking-wide text-zinc-600">Rise Engine</p>
-						<p class="manrope font-medium tracking-wide text-zinc-400">(2024 - )</p>
+						<p class="manrope font-extrabold tracking-wide">Rise Engine</p>
+						<p class="manrope font-medium tracking-wide text-zinc-500">(2024 - )</p>
 					</div>
-					<div class="flex items-center gap-1 md:gap-2">
+					<div class="flex items-center gap-2">
 						<svg
 							role="img"
 							viewBox="0 0 24 24"
@@ -222,9 +222,13 @@
 						</svg>
 					</div>
 				</div>
-				<p class="aleo mt-2 ml-2 w-full border-l-2 border-zinc-300 pl-3 text-lg tracking-wide">
-					Early-stage startup aiming to revolutionize industrial control and automation by
-					leveraging industrial computers instead of traditional PLCs. I lead the development of
+				<p
+					class="aleo mt-2 ml-2 w-full border-l-2 border-zinc-300 pt-0.5 pr-2 pl-3 text-lg tracking-wide"
+				>
+					Early-stage startup aiming to revolutionize <span
+						class="underline decoration-zinc-500 underline-offset-2"
+						>industrial control and automation</span
+					> by leveraging industrial computers instead of traditional PLCs. I lead the development of
 					most of the software systems.
 				</p>
 			</div>
@@ -234,10 +238,10 @@
 					class="flex w-full items-center justify-between gap-2 rounded-lg border border-zinc-300 bg-zinc-50 px-4 py-2"
 				>
 					<div class="flex items-center gap-1">
-						<p class="manrope font-extrabold tracking-wide text-zinc-600">Parkl</p>
-						<p class="manrope font-medium tracking-wide text-zinc-400">(2024)</p>
+						<p class="manrope font-extrabold tracking-wide">Parkl</p>
+						<p class="manrope font-medium tracking-wide text-zinc-500">(2024)</p>
 					</div>
-					<div class="flex items-center gap-1 md:gap-2">
+					<div class="flex items-center gap-2">
 						<svg
 							role="img"
 							viewBox="0 0 24 24"
@@ -278,10 +282,13 @@
 						</svg>
 					</div>
 				</div>
-				<p class="aleo mt-2 ml-2 w-full border-l-2 border-zinc-300 pl-3 text-lg tracking-wide">
-					I served as a consultant, guiding the complete redesign of their parking and electric
-					vehicle charging IoT systems — from the hardware level to system monitoring and
-					management.
+				<p
+					class="aleo mt-2 ml-2 w-full border-l-2 border-zinc-300 pt-0.5 pr-2 pl-3 text-lg tracking-wide"
+				>
+					I served as a consultant, guiding the complete redesign of their <span
+						class="underline decoration-zinc-500 underline-offset-2"
+						>parking and electric vehicle charging IoT systems</span
+					> — from the hardware level to system monitoring and management.
 				</p>
 			</div>
 
@@ -290,10 +297,10 @@
 					class="flex w-full items-center justify-between gap-2 rounded-lg border border-zinc-300 bg-zinc-50 px-3 py-2"
 				>
 					<div class="flex items-center gap-1">
-						<p class="manrope font-extrabold tracking-wide text-zinc-600">Katt</p>
-						<p class="manrope font-medium tracking-wide text-zinc-400">(2023 - )</p>
+						<p class="manrope font-extrabold tracking-wide">Katt</p>
+						<p class="manrope font-medium tracking-wide text-zinc-500">(2023 - )</p>
 					</div>
-					<div class="flex items-center gap-1 md:gap-2">
+					<div class="flex items-center gap-2">
 						<svg
 							role="img"
 							viewBox="0 0 24 24"
@@ -347,9 +354,13 @@
 						</svg>
 					</div>
 				</div>
-				<p class="aleo mt-2 ml-2 w-full border-l-2 border-zinc-300 pl-3 text-lg tracking-wide">
-					This is a passion project currently in its early stages, built on the foundation of
-					expertise I've gained over years of experience in the parking industry.
+				<p
+					class="aleo mt-2 ml-2 w-full border-l-2 border-zinc-300 pt-0.5 pr-2 pl-3 text-lg tracking-wide"
+				>
+					This is a <span class="underline decoration-zinc-500 underline-offset-2"
+						>passion project</span
+					> currently in its early stages, built on the foundation of expertise I've gained over years
+					of experience in the parking industry.
 				</p>
 			</div>
 
@@ -358,10 +369,10 @@
 					class="flex w-full items-center justify-between gap-2 rounded-lg border border-zinc-300 bg-zinc-50 px-4 py-2"
 				>
 					<div class="flex items-center gap-1">
-						<p class="manrope font-extrabold tracking-wide text-zinc-600">NISZ</p>
-						<p class="manrope font-medium tracking-wide text-zinc-400">(2021 - 2022)</p>
+						<p class="manrope font-extrabold tracking-wide">NISZ</p>
+						<p class="manrope font-medium tracking-wide text-zinc-500">(2021 - 2022)</p>
 					</div>
-					<div class="flex items-center gap-1 md:gap-2">
+					<div class="flex items-center gap-2">
 						<svg
 							role="img"
 							viewBox="0 0 24 24"
@@ -402,9 +413,14 @@
 						</svg>
 					</div>
 				</div>
-				<p class="aleo mt-2 ml-2 w-full border-l-2 border-zinc-300 pl-3 text-lg tracking-wide">
-					A simple visualization project became a breakthrough in file analysis, reducing the count
-					and sum of a thousand terabytes of small files from 2 days to 4 hours.
+				<p
+					class="aleo mt-2 ml-2 w-full border-l-2 border-zinc-300 pt-0.5 pr-2 pl-3 text-lg tracking-wide"
+				>
+					A simple visualization project became a <span
+						class="underline decoration-zinc-500 underline-offset-2"
+						>breakthrough in file analysis</span
+					>, reducing the count and sum of a thousand terabytes of small files from 2 days to 4
+					hours.
 				</p>
 			</div>
 
@@ -413,10 +429,10 @@
 					class="flex w-full items-center justify-between gap-2 rounded-lg border border-zinc-300 bg-zinc-50 px-4 py-2"
 				>
 					<div class="flex items-center gap-1">
-						<p class="manrope font-extrabold tracking-wide text-zinc-600">Monizor</p>
-						<p class="manrope font-medium tracking-wide text-zinc-400">(2020 - 2021)</p>
+						<p class="manrope font-extrabold tracking-wide">Monizor</p>
+						<p class="manrope font-medium tracking-wide text-zinc-500">(2020 - 2021)</p>
 					</div>
-					<div class="flex items-center gap-1 md:gap-2">
+					<div class="flex items-center gap-2">
 						<svg
 							role="img"
 							viewBox="0 0 24 24"
@@ -470,9 +486,13 @@
 						</svg>
 					</div>
 				</div>
-				<p class="aleo mt-2 ml-2 w-full border-l-2 border-zinc-300 pl-3 text-lg tracking-wide">
-					A colleague from Rollet and I built a solar-powered sensor for agriculture, using LoRa and
-					sleep cycles for efficient long-range data transmission.
+				<p
+					class="aleo mt-2 ml-2 w-full border-l-2 border-zinc-300 pt-0.5 pr-2 pl-3 text-lg tracking-wide"
+				>
+					A colleague from Rollet and I built a <span
+						class="underline decoration-zinc-500 underline-offset-2"
+						>solar-powered sensor for agriculture</span
+					>, using LoRa and sleep cycles for efficient long-range data transmission.
 				</p>
 			</div>
 
@@ -481,10 +501,10 @@
 					class="flex w-full items-center justify-between gap-2 rounded-lg border border-zinc-300 bg-zinc-50 px-4 py-2"
 				>
 					<div class="flex items-center gap-1">
-						<p class="manrope font-extrabold tracking-wide text-zinc-600">Rollet</p>
-						<p class="manrope font-medium tracking-wide text-zinc-400">(2018 - 2024)</p>
+						<p class="manrope font-extrabold tracking-wide">Rollet</p>
+						<p class="manrope font-medium tracking-wide text-zinc-500">(2018 - 2024)</p>
 					</div>
-					<div class="flex items-center gap-1 md:gap-2">
+					<div class="flex items-center gap-2">
 						<svg
 							role="img"
 							viewBox="0 0 24 24"
@@ -573,10 +593,14 @@
 						</svg>
 					</div>
 				</div>
-				<p class="aleo mt-2 ml-2 w-full border-l-2 border-zinc-300 pl-3 text-lg tracking-wide">
-					I joined Rollet as a full-stack developer during its early startup phase. Over time, I
-					focused more on IoT and monitoring. Later, I returned as a contractor, working exclusively
-					on IoT and embedded systems, including a ticket kiosk system.
+				<p
+					class="aleo mt-2 ml-2 w-full border-l-2 border-zinc-300 pt-0.5 pr-2 pl-3 text-lg tracking-wide"
+				>
+					I joined Rollet during its early startup phase, helping build a <span
+						class="underline decoration-zinc-500 underline-offset-2">smart parking platform</span
+					> as a full-stack developer. As the product evolved, I increasingly focused on IoT, monitoring,
+					and device-side systems. Later, I returned as a contractor, working exclusively on IoT and embedded
+					development, including a ticket kiosk system.
 				</p>
 			</div>
 
@@ -585,10 +609,10 @@
 					class="flex w-full items-center justify-between gap-2 rounded-lg border border-zinc-300 bg-zinc-50 px-4 py-2"
 				>
 					<div class="flex items-center gap-1">
-						<p class="manrope font-extrabold tracking-wide text-zinc-600">Ulyssys</p>
-						<p class="manrope font-medium tracking-wide text-zinc-400">(2015 - 2017)</p>
+						<p class="manrope font-extrabold tracking-wide">Ulyssys</p>
+						<p class="manrope font-medium tracking-wide text-zinc-500">(2015 - 2017)</p>
 					</div>
-					<div class="flex items-center gap-1 md:gap-2">
+					<div class="flex items-center gap-2">
 						<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" class="w-4 md:w-5">
 							<path
 								fill="#71717b"
@@ -656,9 +680,13 @@
 						</svg>
 					</div>
 				</div>
-				<p class="aleo mt-2 ml-2 w-full border-l-2 border-zinc-300 pl-3 text-lg tracking-wide">
-					I developed the company's internal HR system, working largely independently on the
-					technical side while also contributing to product development.
+				<p
+					class="aleo mt-2 ml-2 w-full border-l-2 border-zinc-300 pt-0.5 pr-2 pl-3 text-lg tracking-wide"
+				>
+					I developed the company's internal <span
+						class="underline decoration-zinc-500 underline-offset-2">HR system</span
+					>, working largely independently on the technical side while also contributing to product
+					development.
 				</p>
 			</div>
 		</div>
@@ -693,14 +721,7 @@
 		top: -1px;
 		left: -1px;
 		content: ' ';
-		background: linear-gradient(
-			to right,
-			rgba(20, 200, 100, 0.2),
-			rgba(20, 200, 100, 0.3),
-			rgba(20, 200, 100, 0.3),
-			rgba(20, 200, 100, 0.3),
-			rgba(20, 200, 100, 0.2)
-		);
+		background: linear-gradient(to right, rgba(74, 222, 128, 0.3));
 		box-decoration-break: clone;
 		will-change: transform;
 	}

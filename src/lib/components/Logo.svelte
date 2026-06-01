@@ -54,7 +54,7 @@
 			color: var(--color-emerald-500);
 		}
 		100% {
-			color: var(--color-indigo-400);
+			color: var(--color-indigo-500);
 		}
 	}
 </style>
