@@ -24,7 +24,8 @@
 	stroke-linejoin="round"
 	stroke-width="16"
 	fill="none"
-	class="w-20"
+	class="w-24"
+	aria-hidden="true"
 >
 	{#if showM}
 		<path
