@@ -37,6 +37,6 @@
 		"wrangler": "4.97.0"
 	},
 	"dependencies": {
-		"posthog-js": "1.381.0"
+		"posthog-js": "1.382.0"
 	}
 }
