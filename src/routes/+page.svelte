@@ -171,7 +171,7 @@
 				>
 					<div class="flex items-center gap-1">
 						<p class="manrope font-extrabold tracking-wide">Rise Engine</p>
-						<p class="manrope font-medium tracking-wide text-zinc-500">(2024 - )</p>
+						<p class="manrope font-medium tracking-wide text-zinc-500">(2024 - 2026)</p>
 					</div>
 					<div class="flex items-center gap-2">
 						<svg
