@@ -716,10 +716,11 @@
 
 	.highlight-container-left:before,
 	.highlight-container-right:before {
+		--highlight-rotation: 0deg;
 		z-index: -50;
 		position: absolute;
 		display: block;
-		width: 0;
+		width: 105%;
 		height: 95%;
 		margin-left: -1px;
 		margin-top: 2px;
@@ -728,17 +729,19 @@
 		content: ' ';
 		background: linear-gradient(to right, rgba(74, 222, 128, 0.3));
 		box-decoration-break: clone;
+		transform: rotate(var(--highlight-rotation)) scaleX(0);
+		transform-origin: left center;
 		will-change: transform;
 	}
 
 	.highlight-container-left:before {
+		--highlight-rotation: 1deg;
 		border-radius: 23% 26% 20% 25%;
-		transform: rotate(1deg);
 	}
 
 	.highlight-container-right:before {
+		--highlight-rotation: -1deg;
 		border-radius: 20% 25% 22% 24%;
-		transform: rotate(-1deg);
 	}
 
 	.quality-animation:before {
@@ -752,7 +755,15 @@
 
 	@keyframes highlight-animation {
 		to {
-			width: 105%;
+			transform: rotate(var(--highlight-rotation)) scaleX(1);
+		}
+	}
+
+	@media (prefers-reduced-motion: reduce) {
+		.quality-animation:before,
+		.performance-animation:before {
+			animation: none;
+			transform: rotate(var(--highlight-rotation)) scaleX(1);
 		}
 	}
 </style>

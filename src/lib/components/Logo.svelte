@@ -4,8 +4,17 @@
 	import { sineInOut } from 'svelte/easing';
 	let showW = $state(false);
 	let showM = $state(false);
+	let reduceMotion = $state(false);
 
 	onMount(() => {
+		reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+		if (reduceMotion) {
+			showW = true;
+			showM = true;
+			return;
+		}
+
 		setTimeout(() => {
 			showW = true;
 		});
@@ -30,7 +39,7 @@
 	{#if showM}
 		<path
 			class="will-change-transform"
-			in:draw={{ duration: 1500, easing: sineInOut }}
+			in:draw={{ duration: reduceMotion ? 0 : 1500, easing: sineInOut }}
 			d="M5 135 L35 70 L55 105 L75 70 L105 135"
 		/>
 	{/if}
@@ -38,7 +47,7 @@
 	{#if showW}
 		<path
 			class="will-change-transform"
-			in:draw={{ duration: 1500, easing: sineInOut }}
+			in:draw={{ duration: reduceMotion ? 0 : 1500, easing: sineInOut }}
 			d="M5 5 L35 70 L55 35 L75 70 L105 5"
 		/>
 	{/if}
@@ -47,6 +56,12 @@
 <style>
 	.logo-animation {
 		animation: color-animation 30s ease-in-out infinite alternate;
+	}
+
+	@media (prefers-reduced-motion: reduce) {
+		.logo-animation {
+			animation: none;
+		}
 	}
 
 	@keyframes color-animation {
