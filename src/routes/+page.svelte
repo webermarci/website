@@ -44,19 +44,19 @@
 		<p class="aleo mb-8 text-center text-xl tracking-wide">
 			You can find me on
 			<a
-				class="font-medium text-blue-500 decoration-wavy underline-offset-2 hover:underline"
+				class="font-medium text-blue-500 underline-offset-2 hover:underline"
 				target="_blank"
 				rel="noopener noreferrer"
 				href="https://www.linkedin.com/in/webermarton/">LinkedIn</a
 			>,
 			<a
-				class="font-medium text-blue-500 decoration-wavy underline-offset-2 hover:underline"
+				class="font-medium text-blue-500 underline-offset-2 hover:underline"
 				target="_blank"
 				rel="noopener noreferrer"
 				href="https://github.com/webermarci">GitHub</a
 			>, or get in touch via
 			<a
-				class="font-medium text-blue-500 decoration-wavy underline-offset-2 hover:underline"
+				class="font-medium text-blue-500 underline-offset-2 hover:underline"
 				href="mailto:webermarton@gmail.com">email</a
 			>.
 		</p>
