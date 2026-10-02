@@ -5,13 +5,13 @@
 
 <TechIconSprite />
 
-<main class="w-full px-3 py-4 md:px-4 lg:py-12 xl:py-24 2xl:py-32">
-	<div class="m-auto flex max-w-xl flex-col items-center">
+<main class="w-full px-3 py-4">
+	<div class="m-auto flex max-w-2xl flex-col items-center">
 		<Logo />
 
 		<h1 class="manrope mt-4 mb-4 text-3xl font-extrabold">Hey, I'm Marci. 👋</h1>
 
-		<p class="aleo mb-4 text-center text-xl tracking-wide">
+		<p class="aleo mb-4 w-2/3 text-center text-xl tracking-wide">
 			I'm a passionate software engineer who cares deeply about <span
 				class="highlight-container-left quality-animation"
 				><span class="highlight">quality</span></span
@@ -44,7 +44,7 @@
 			Budapest, Hungary
 		</p>
 
-		<p class="aleo mb-8 text-center text-xl tracking-wide">
+		<p class="aleo mb-8 w-2/3 text-center text-xl tracking-wide">
 			You can find me on
 			<a
 				class="font-medium text-blue-600 underline-offset-2 hover:underline"
