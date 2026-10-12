@@ -2,9 +2,9 @@
 	import './layout.css';
 
 	import { onMount } from 'svelte';
-	import favicon from '$lib/assets/favicon.svg';
-	import aleoLatin from '$lib/assets/fonts/aleo/aleo-latin.woff2?url';
-	import manropeLatin from '$lib/assets/fonts/manrope/manrope-latin.woff2?url';
+	import favicon from '#lib/assets/favicon.svg';
+	import aleoLatin from '#lib/assets/fonts/aleo/aleo-latin.woff2?url';
+	import manropeLatin from '#lib/assets/fonts/manrope/manrope-latin.woff2?url';
 
 	let { children } = $props();
 

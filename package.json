@@ -1,7 +1,7 @@
 {
 	"name": "website",
 	"private": true,
-	"version": "9.3.0",
+	"version": "9.4.0",
 	"type": "module",
 	"scripts": {
 		"dev": "vite dev",
@@ -16,8 +16,8 @@
 	},
 	"devDependencies": {
 		"@eslint/js": "10.0.1",
-		"@sveltejs/adapter-cloudflare": "7.2.9",
-		"@sveltejs/kit": "2.70.3",
+		"@sveltejs/adapter-cloudflare": "8.0.0",
+		"@sveltejs/kit": "3.0.1",
 		"@sveltejs/vite-plugin-svelte": "7.3.1",
 		"@tailwindcss/vite": "4.3.3",
 		"@types/node": "26.6.5",
@@ -31,12 +31,16 @@
 		"svelte": "5.57.2",
 		"svelte-check": "4.7.6",
 		"tailwindcss": "4.3.3",
-		"typescript": "7.0.2",
-		"typescript-eslint": "8.71.1",
+		"typescript": "6.0.3",
+		"typescript-eslint": "8.71.2",
 		"vite": "8.3.4",
 		"wrangler": "4.149.0"
 	},
 	"dependencies": {
-		"posthog-js": "1.438.7"
+		"posthog-js": "1.438.9"
+	},
+	"imports": {
+		"#lib": "./src/lib/index.js",
+		"#lib/*": "./src/lib/*"
 	}
 }

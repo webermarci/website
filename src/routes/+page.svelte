@@ -1,6 +1,6 @@
 <script>
-	import Logo from '$lib/components/Logo.svelte';
-	import TechIconSprite from '$lib/components/TechIconSprite.svelte';
+	import Logo from '#lib/components/Logo.svelte';
+	import TechIconSprite from '#lib/components/TechIconSprite.svelte';
 </script>
 
 <TechIconSprite />
