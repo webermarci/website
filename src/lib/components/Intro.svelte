@@ -7,7 +7,7 @@
 
 	<h1 class="manrope mt-4 mb-4 text-3xl font-extrabold">Hey, I'm Marci. 👋</h1>
 
-	<p class="aleo mb-4 w-2/3 text-center text-xl tracking-wide">
+	<p class="aleo mb-4 w-2/3 text-center text-xl font-medium tracking-wide">
 		I'm a passionate software engineer who cares deeply about <span
 			class="highlight-container-left quality-animation"
 			><span class="highlight">quality</span></span
@@ -19,7 +19,7 @@
 	</p>
 
 	<p
-		class="manrope mb-4 flex items-center gap-1 text-center text-lg font-semibold tracking-wide text-zinc-500"
+		class="aleo mb-4 flex items-center gap-1 text-center text-lg font-medium tracking-wide text-zinc-500"
 	>
 		<svg
 			xmlns="http://www.w3.org/2000/svg"
@@ -31,7 +31,7 @@
 			stroke-width="2"
 			stroke-linecap="round"
 			stroke-linejoin="round"
-			class="lucide lucide-map-pin-house preview-icon"
+			class="lucide lucide-map-pin-house w-5"
 			><path
 				d="M15 22a1 1 0 0 1-1-1v-4a1 1 0 0 1 .445-.832l3-2a1 1 0 0 1 1.11 0l3 2A1 1 0 0 1 22 17v4a1 1 0 0 1-1 1z"
 			/><path d="M18 10a8 8 0 0 0-16 0c0 4.993 5.539 10.193 7.399 11.799a1 1 0 0 0 .601.2" /><path
@@ -41,23 +41,22 @@
 		Budapest, Hungary
 	</p>
 
-	<p class="aleo mb-8 w-2/3 text-center text-xl tracking-wide">
+	<p class="aleo mb-8 w-2/3 text-center text-xl font-medium tracking-wide">
 		You can find me on
 		<a
-			class="font-medium text-sky-600 underline-offset-2 hover:underline"
+			class="text-blue-600 underline-offset-2 hover:underline"
 			target="_blank"
 			rel="noopener noreferrer"
 			href="https://www.linkedin.com/in/webermarton/">LinkedIn</a
 		>,
 		<a
-			class="font-medium text-sky-600 underline-offset-2 hover:underline"
+			class="text-blue-600 underline-offset-2 hover:underline"
 			target="_blank"
 			rel="noopener noreferrer"
 			href="https://github.com/webermarci">GitHub</a
 		>, or get in touch via
-		<a
-			class="font-medium text-sky-600 underline-offset-2 hover:underline"
-			href="mailto:webermarton@gmail.com">email</a
+		<a class="text-blue-600 underline-offset-2 hover:underline" href="mailto:webermarton@gmail.com"
+			>email</a
 		>.
 	</p>
 
