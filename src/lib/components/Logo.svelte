@@ -33,7 +33,7 @@
 	stroke-linejoin="round"
 	stroke-width="16"
 	fill="none"
-	class="logo-animation w-24"
+	class="logo-animation w-20"
 	aria-hidden="true"
 >
 	{#if showM}
