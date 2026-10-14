@@ -48,28 +48,6 @@
 
 	<li>
 		<span class="manrope text-lg font-extrabold tracking-wide"
-			>Katt <span class="aleo font-medium tracking-wider text-zinc-700">(2023 - )</span></span
-		>
-
-		<p
-			class="aleo mt-1 ml-[1.5px] border-l-2 border-zinc-300 pl-3 text-lg font-medium tracking-wide text-zinc-600"
-		>
-			This is a <span class="text-black underline decoration-zinc-400 underline-offset-2"
-				>passion project</span
-			> currently in its early stages, built on the foundation of expertise I've gained over years of
-			experience in the parking industry.
-		</p>
-
-		<div class="mt-2 flex flex-wrap gap-2">
-			<div class="aleo rounded bg-zinc-200 px-2">go</div>
-			<div class="aleo rounded bg-zinc-200 px-2">svelte</div>
-			<div class="aleo rounded bg-zinc-200 px-2">arduino</div>
-			<div class="aleo rounded bg-zinc-200 px-2">grafana</div>
-		</div>
-	</li>
-
-	<li>
-		<span class="manrope text-lg font-extrabold tracking-wide"
 			>NISZ <span class="aleo font-medium tracking-wider text-zinc-700">(2021 - 2022)</span></span
 		>
 
